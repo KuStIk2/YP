@@ -1,0 +1,121 @@
+body {
+    background-color: #121238;
+}
+
+header {
+width: auto;
+height: 200px;
+box-sizing: border-box;
+padding-left:820px;
+padding-top: 22px;
+}
+
+.text {
+color: #fff;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 24px;
+font-weight: 900;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.top_logo {
+width: 1000px;
+height: 100px;
+padding-left: 600px;
+padding-top: 100px;
+}
+
+.top_info {
+    padding-top: 20px;
+    padding-left: 300px;
+width: 500px;
+height: 200px;
+}
+
+button {
+    border-radius: 15px;
+background: var(--#3A68B8, rgba(58, 104, 184, 1));
+}
+
+.top_button {
+    padding-top: 30px;
+
+}
+
+.button1 {
+width: 150px;
+height: 50px;
+gap: 10;
+padding: 15px 30px 15px 30px;
+background-color: rgba(58, 104, 184, 1);
+color: white;
+}
+
+.button2 {
+width: 170px;
+height: 50px;
+gap: 10;
+padding: 15px 30px 15px 30px;
+background-color: rgba(58, 104, 184, 1);
+color: white;
+}
+
+h1 {
+    color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+
+font-family: sans-serif;
+font-size: 55px;
+font-weight: 800;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+}
+
+p {
+    color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+ a {
+            text-decoration: none;
+            color: #333;
+            font-family: Arial, sans-serif;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+
+         .link-2 {
+            padding-bottom: 5px;
+             padding: 5px 10px;
+            border-radius: 5px;
+        
+        }
+        .link-2:hover {
+            color: #4ecdc4;
+            background-color: #45b7d1;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .link-2::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #4ecdc4;
+            transition: width 0.3s ease;
+        }
+        .link-2:hover::after {
+            width: 100%;
+        }
